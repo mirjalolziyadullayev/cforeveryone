@@ -1,2 +1,2 @@
 # c-learn
-Daily C language lessons will upload in this repository
+Daily C language lessons will be uploaded in this repository
