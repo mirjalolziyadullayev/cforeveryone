@@ -1,9 +1,9 @@
 /*
- Input and Output example
-   by Person
-   March 27, 2023
-*/
-
+ *Input and Output example
+ *by Person and Professor Ira Pohl
+ *from University of California, Santa Cruz
+ *March 27, 2023
+ */
 #include<stdio.h>
 #define PI 3.14159
 
