@@ -1,5 +1,5 @@
 /*
- *Conversation of Fahrenheit to Celsius 
+ *Conversion of Fahrenheit to Celsius 
  *by Person and professor Ira Pohl
  *March 28, 2023
  */
