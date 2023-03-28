@@ -1,7 +1,7 @@
 /*
  *Conversation of Fahrenheit to Celsius 
- by Person and professor Ira Pohl
- March 28, 2023
+ *by Person and professor Ira Pohl
+ *March 28, 2023
  */
 #include <stdio.h>
 int main(void)
