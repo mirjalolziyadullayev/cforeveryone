@@ -10,7 +10,7 @@ int main(void)
     
     printf("Please enter fahrenheit as an integer bro:");
     scanf("%d", &fahrenheit);
-    celsius = (fahrenheit -32)/1.8; //note conversation
+    celsius = (fahrenheit -32)/1.8; //note conversion
     printf("\n %d fahrenheit is %d celsius.\n",
 		    fahrenheit, celsius);
     return 0;
