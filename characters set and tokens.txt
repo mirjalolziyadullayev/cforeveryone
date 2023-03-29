@@ -1,1 +1,7 @@
+Comments : /*.....*/, //.....
 
+Preprocessor directives: #include
+
+Identifiers: a, b, main
+Operators: +, &,
+Functios: { } :
