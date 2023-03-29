@@ -2,6 +2,6 @@ Comments : /*.....*/, //.....
 
 Preprocessor directives: #include
 
-Identifiers: a, b, main
-Operators: +, &,
-Functios: { } :
+Identifiers: a b main
+Operators: + &
+Punctuations: { ; }
