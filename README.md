@@ -1,3 +1,3 @@
-<h3>University of California, Santa Cruz</h3>
+<h1>University of California, Santa Cruz</h1>
 </hr>
-<h1>Daily C language lessons will be uploaded in this repository</h1>
+<h3>Daily C language lessons will be uploaded in this repository</h3>
