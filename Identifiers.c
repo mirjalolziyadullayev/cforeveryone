@@ -1,3 +1,4 @@
+/*
 Identifiers
 
 int main ()
@@ -48,7 +49,9 @@ x
 y
 g
 
-simple program for example
+*/
+
+// here is the simple program for example
 
 /*Circle and area*/
 
