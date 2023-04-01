@@ -1,7 +1,7 @@
 <body>
   
 <h2>C Operator Precedence Table</h2>
-<p>C operators are listed in order of precedence (highest to lowest). Their associativity
+<p>C operators are listed in order of <i>precedence</i> (highest to lowest). Their <i>associativity</i>
 indicates in what order operators of equal precedence in an expression are applied.</p>
 
 <table style="width:100%">
