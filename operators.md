@@ -11,33 +11,37 @@ indicates in what order operators of equal precedence in an expression are appli
     <th>Associativity</th>
   </tr>
   <tr>
-    <td>()
-[ ]
-.
-->
+    <td>
+()<br>
+[ ]<br>
+.<br>
+-><br>
 ++ --</td>
-    <td>Parentheses: grouping or function call
-Brackets (array subscript)
-Member selection via object name
-Member selection via pointer
+    <td>Parentheses: grouping or function call<br>
+Brackets (array subscript)<br>
+Member selection via object name<br>
+Member selection via pointer<br>
 Postfix increment/decrement</td>
     <td>left-to-right</td>
   </tr>
   <tr>
-    <td>++ --
-+ -
-! ~
-(type)
-*
-&
-sizeof</td>
-    <td>Prefix increment/decrement
-Unary plus/minus
-Logical negation/bitwise complement
-Cast (convert value to temporary value of type)
-Dereference
-Address (of operand)
-Determine size in bytes on this implementation</td>
+    <td>
+      ++ --<br>
+      + -<br>
+      ! ~<br>
+      (type)<br>
+      *<br>
+      &<br>
+      sizeof<br>
+	</td>
+    <td>Prefix increment/decrement<br>
+        Unary plus/minus<br>
+        Logical negation/bitwise complement<br>
+        Cast (convert value to temporary value of type)<br>
+        Dereference<br>
+        Address (of operand)<br>
+        Determine size in bytes on this implementation<br>
+    </td>
     <td>right-to-left</td>
   </tr>
   <tr>
@@ -56,10 +60,13 @@ Determine size in bytes on this implementation</td>
     <td>left-to-right</td>
   </tr>
     <tr>
-  	<td>< <=
-> >=</td>
-    <td>Relational less than/less than or equal to
-Relational greater than/greater than or equal to</td>
+  	<td>
+    < <=<br>
+	> >=<br>
+    </td>
+    <td>Relational less than/less than or equal to<br>
+      	Relational greater than/greater than or equal to<br>
+    </td>
     <td>left-to-right</td>
   </tr>
     <tr>
@@ -98,18 +105,20 @@ Relational greater than/greater than or equal to</td>
     <td>right-to-left</td>
   </tr>
     <tr>
-  	<td>=
-+= -=
-*= /=
-%= &=
-^= |=
-<<= >>=</td>
-    <td>Assignment
-Addition/subtraction assignment
-Multiplication/division assignment
-Modulus/bitwise AND assignment
-Bitwise exclusive/inclusive OR assignment
-Bitwise shift left/right assignment</td>
+  	<td>=<br>
+      += -=<br>
+      *= /=<br>
+      %= &=<br>
+      ^= |=<br>
+      <<= >>=<br>
+	</td>
+    <td>Assignment<br>
+      Addition/subtraction assignment<br>
+      Multiplication/division assignment<br>
+      Modulus/bitwise AND assignment<br>
+      Bitwise exclusive/inclusive OR assignment<br>
+      Bitwise shift left/right assignment<br>
+	</td>
     <td>right-to-left</td>
   </tr>
     <tr>
