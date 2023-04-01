@@ -7,31 +7,41 @@
     <th>float</th>
     <th>int</th>
     <th>short</th>
+  </tr>
+  <tr>
     <th>struct</th>
     <th>unsigned</th>
     <th>break</th>
     <th>continue</th>
     <th>else</th>
     <th>for</th>
+  </tr>
+  <tr>
     <th>long</th>
     <th>singed</th>
     <th>switch</th>
     <th>void</th>
     <th>case</th>
     <th>default</th>
-    <th>enum</th>
+  </tr>
+  <tr>
     <th>goto</th>
     <th>register</th>
     <th>sizeof</th>
     <th>typedef</th>
     <th>volatile</th>
     <th>char</th>
+  </tr>
+  <tr>
     <th>do</th>
     <th>extern</th>
     <th>if</th>
-    <th>return</th>
     <th>static</th>
     <th>union</th>
     <th>while</th>
+  </tr>
+  <tr>
+    <th>enum</th>
+    <th>return</th>
   </tr>
 </table>
