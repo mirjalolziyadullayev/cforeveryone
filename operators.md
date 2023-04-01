@@ -12,11 +12,12 @@ indicates in what order operators of equal precedence in an expression are appli
   </tr>
   <tr>
     <td>
-()<br>
-[ ]<br>
-.<br>
--><br>
-++ --</td>
+	()<br>
+	[ ]<br>
+	.<br>
+	-><br>
+	++ --<br>
+    </td>
     <td>Parentheses: grouping or function call<br>
 Brackets (array subscript)<br>
 Member selection via object name<br>
@@ -33,7 +34,7 @@ Postfix increment/decrement</td>
       *<br>
       &<br>
       sizeof<br>
-	</td>
+    </td>
     <td>Prefix increment/decrement<br>
         Unary plus/minus<br>
         Logical negation/bitwise complement<br>
@@ -45,24 +46,24 @@ Postfix increment/decrement</td>
     <td>right-to-left</td>
   </tr>
   <tr>
-  	<td>* / %</td>
+    <td>* / %</td>
     <td>Multiplication/division/modulus</td>
     <td>left-to-right</td>
   </tr>
     <tr>
-  	<td>+ -</td>
+    <td>+ -</td>
     <td>Addition/subtraction</td>
     <td>left-to-right</td>
   </tr>
     <tr>
-  	<td><< >></td>
+    <td><< >></td>
     <td>Bitwise shift left, Bitwise shift right </td>
     <td>left-to-right</td>
   </tr>
     <tr>
-  	<td>
+    <td>
     < <=<br>
-	> >=<br>
+    > >=<br>
     </td>
     <td>Relational less than/less than or equal to<br>
       	Relational greater than/greater than or equal to<br>
@@ -70,61 +71,62 @@ Postfix increment/decrement</td>
     <td>left-to-right</td>
   </tr>
     <tr>
-  	<td>== !=</td>
+    <td>== !=</td>
     <td>Relational is equal to/is not equal to</td>
     <td>left-to-right</td>
   </tr>
     <tr>
-  	<td>&</td>
+    <td>&</td>
     <td>Bitwise AND</td>
     <td>left-to-right</td>
   </tr>
     <tr>
-  	<td>^</td>
+    <td>^</td>
     <td>Bitwise exclusive OR</td>
     <td>left-to-right</td>
   </tr>
     <tr>
-  	<td>|</td>
+    <td>|</td>
     <td>Bitwise inclusive OR</td>
     <td>left-to-right</td>
   </tr>
     <tr>
-  	<td>&&</td>
+    <td>&&</td>
     <td>Logical AND</td>
     <td>left-to-right</td>
   </tr>
     <tr>
-  	<td>| |</td>
+    <td>| |</td>
     <td>Logical OR</td>
     <td>left-to-right</td>
   </tr>
     <tr>
-  	<td>? :</td>
+    <td>? :</td>
     <td>Ternary conditional</td>
     <td>right-to-left</td>
   </tr>
     <tr>
-  	<td>=<br>
+    <td>
+      =<br>
       += -=<br>
       *= /=<br>
       %= &=<br>
       ^= |=<br>
       <<= >>=<br>
-	</td>
+    </td>
     <td>Assignment<br>
       Addition/subtraction assignment<br>
       Multiplication/division assignment<br>
       Modulus/bitwise AND assignment<br>
       Bitwise exclusive/inclusive OR assignment<br>
       Bitwise shift left/right assignment<br>
-	</td>
+    </td>
     <td>right-to-left</td>
   </tr>
-    <tr>
-  	<td>,</td>
-    <td>Comma (separate expressions)</td>
-    <td>left-to-right</td>
+  <tr>
+     <td>,</td>
+     <td>Comma (separate expressions)</td>
+     <td>left-to-right</td>
   </tr>
 </table>
 
