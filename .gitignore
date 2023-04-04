@@ -1,10 +1,6 @@
 # Prerequisites
 *.d
 
-# ignore additional files
-.html
-.md
-
 # Object files
 *.o
 *.ko
@@ -45,6 +41,10 @@
 *.su
 *.idb
 *.pdb
+
+# Documentation files like "HTML"
+*.html
+*.css
 
 # Kernel Module Compile Results
 *.mod*
