@@ -1,8 +1,9 @@
 # Prerequisites
 *.d
 
-# Web Files 
-*.html
+# ignore additional files
+.html
+.md
 
 # Object files
 *.o
