@@ -70,9 +70,10 @@
         </tr>
     </table>
     <h5>2023. by Person</h5>
-
+</div>
+<div>
     <h4>To make sure you understand this eveluate the following expresions</h4>
-    <p>
+    <h5>
         3 * 5 <br>
         3 * 5 + 2 <br>
         3 * (5 + 2) <br>
@@ -88,5 +89,5 @@
         3 / 5 <br>
         3.0 / 5 <br>
         3 / 5.0 <br>
-    </p>
+    </h5>
 </div>
