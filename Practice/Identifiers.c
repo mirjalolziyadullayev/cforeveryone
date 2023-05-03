@@ -1,55 +1,52 @@
-/*
-Identifiers
+// Identifiers
 
-int main ()
-main - Identifier
-int - keyword
+// int main ()
+// main - Identifier
+// int - keyword
 
-id ::= {letter|underscore} 1
+// id ::= {letter|underscore} 1
 
-{letter|
-underscore|
-Digit} 0+
+// {letter|
+// underscore|
+// Digit} 0+
 
-K
-_printF
-two_words
-two Words
-my_dna23
+// K
+// _printF
+// two_words
+// two Words
+// my_dna23
 
-but not
+// but not
 
-#me
-or 
-me#
+// #me
+// or 
+// me#
 
-_x
-23my_dna
+// _x
+// 23my_dna
 
-good id's - dcument 
-          - readable
-main 
-printf
-sqrt
-superman
-radius
-i
+// good id's - dcument 
+//           - readable
+// main 
+// printf
+// sqrt
+// superman
+// radius
+// i
 
-bad
+// bad
 
-grx33
-_pp_25
-i_am_fourWords
+// grx33
+// _pp_25
+// i_am_fourWords
 
-good or bad
+// good or bad
 
-data
-mxyzptlk
-x
-y
-g
-
-*/
+// data
+// mxyzptlk
+// x
+// y
+// g
 
 // here is the simple program for example
 
