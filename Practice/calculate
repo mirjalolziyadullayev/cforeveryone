@@ -1,0 +1,46 @@
+/*
+#2023, 2 August
+#Calculate (simple electricity watt calculation program, it can only take usage time and payment from user and multiple)
+#by Person
+#*/
+
+#include <stdio.h>
+
+int main() {
+    int device_id, payment, howLong;
+
+    printf("\nIt'll calculate how much electricity you used in the mentioned time.");
+    printf("\nPlease enter device ID: ");
+    scanf("%d", &device_id);
+
+    if (device_id == 1) {
+        printf("\nSuccess!");
+
+        printf("\nEnter how much you paid: ");
+        scanf("%d", &payment);
+
+        if (payment <= 0) {
+            printf("\nPayment must not be 0 or less than 0");
+        } 
+        
+        else {
+            printf("\nEnter how long you used electricity: ");
+            scanf("%d", &howLong);
+
+            if (howLong <= 0) {
+                printf("\nTime that you used electricity must not be 0 or less than 0.");
+            } 
+            
+            else {
+                int calc = payment * howLong;
+                printf("\nYou used %d watts electricity.", calc);
+            }
+        }
+    } 
+    
+    else {
+        printf("\nIncorrect ID");
+    }
+
+    return 0;
+}
